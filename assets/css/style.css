@@ -13,27 +13,49 @@
   margin: 0px;
 }
 
-a#home {
-  text-decoration: none;
-}
-
-h1 {
-  font-family: "Poppins";
-  font-size: 90px;
+header {
   color: white;
   background-color: black;
   padding-left: 20px;
 }
 
-#contact-area {
-  margin-top: 200px;
-  /* color: white; */
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
 
+h1 {
+  font-family: "Poppins", serif;
+  font-size: 90px;
+}
+
+hr {
+  background-color: rgb(48, 108, 218);
+  height: 10px;
+}
+
+#contact-area {
   display: flex;
-  align-content: space-around;
   justify-content: center;
+  margin-top: 200px;
 }
 
 #contact-area .contact-icons {
   width: 70px;
+  padding-right: 20px;
+}
+
+div#update {
+  color: red;
+  margin: 0 auto; /*centering div*/
+  margin-top: 50px;
+  width: 320px;
+  padding-right: 20px; /* to match padding of contact icons. */
+
+  font-size: 20px;
+  font-family: "Roboto", serif;
+  text-align: center;
 }
