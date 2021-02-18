@@ -1,0 +1,12 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-size: 90px;
+  color: white;
+  background-color: black;
+  padding-left: 20px;
+}
