@@ -13,10 +13,27 @@
   margin: 0px;
 }
 
+a#home {
+  text-decoration: none;
+}
+
 h1 {
   font-family: "Poppins";
   font-size: 90px;
   color: white;
   background-color: black;
   padding-left: 20px;
+}
+
+#contact-area {
+  margin-top: 200px;
+  /* color: white; */
+
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+}
+
+#contact-area .contact-icons {
+  width: 70px;
 }
