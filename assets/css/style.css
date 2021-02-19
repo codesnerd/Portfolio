@@ -14,9 +14,12 @@
 }
 
 header {
-  color: white;
+  /* color: white;
   background-color: black;
-  padding-left: 20px;
+  padding-left: 20px; */
+  text-align: center;
+  background-color: black;
+  color: white;
 }
 
 a,
@@ -34,7 +37,7 @@ h1 {
 
 hr {
   background-color: rgb(48, 108, 218);
-  height: 10px;
+  height: 5px;
 }
 
 #contact-area {
