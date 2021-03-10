@@ -4,8 +4,6 @@
 }
 
 header {
-  color: white;
-  background-color: black;
   text-align: center;
 }
 
@@ -19,12 +17,15 @@ a:active {
 
 h1#top-heading {
   font-family: "Poppins", sans-serif;
-  font-size: 60px;
+  font-size: 55px;
 }
 
 hr {
-  background-color: rgb(86, 137, 233);
+  border: none;
+  background-color: rgb(233, 233, 233);
   height: 5px;
+  width: 350px;
+  margin: 0 auto;
 }
 
 #contact-area {
