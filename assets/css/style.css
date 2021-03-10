@@ -15,16 +15,23 @@ a:active {
   color: inherit;
 }
 
-h1 {
+h1#top-heading {
   font-family: "Poppins", sans-serif;
   font-size: 55px;
 }
 
 hr {
+<<<<<<< HEAD
   background-color: #f2f2f2;
   border: none;
   width: 350px;
   height: 5px;
+=======
+  border: none;
+  background-color: rgb(233, 233, 233);
+  height: 5px;
+  width: 350px;
+>>>>>>> 99f98e0f1a01260e7a4ab84d14bd797217296602
   margin: 0 auto;
 }
 
