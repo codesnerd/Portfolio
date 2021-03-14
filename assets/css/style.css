@@ -3,50 +3,25 @@
   margin: 0px;
 }
 
-header {
-  text-align: center;
-}
-
-a,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
-h1#top-heading {
-  font-family: "Poppins", sans-serif;
-  font-size: 55px;
-}
-
-hr {
-  background-color: #f2f2f2;
-  border: none;
-  width: 240px;
-  height: 5px;
-  margin: 0 auto;
-}
-
-#contact-area {
+.parent,
+html {
+  height: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-#contact-area .contact-icons {
-  width: 60px;
-  padding-right: 20px;
+.content {
+  height: 350px;
 }
 
-div#update {
-  color: red;
-  margin: 0 auto; /*centering div*/
-  margin-top: 50px;
-  width: 320px;
-  padding-right: 20px; /* to match padding of contact icons. */
+.top-heading {
+  font-family: "Poppins", serif;
+  font-size: 70px;
+}
 
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
+.tagline {
+  margin-top: 20px;
+  font-size: 60px;
 }
