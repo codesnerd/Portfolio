@@ -10,6 +10,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: 20px;
 }
 
 .content {
@@ -23,7 +24,8 @@ html {
 
 .tagline {
   margin-top: 20px;
-  font-size: 60px;
+  font-size: 55px;
+  font-family: "Roboto", serif;
 }
 
 .social-link {
@@ -45,4 +47,12 @@ html {
 
 .blob {
   filter: drop-shadow(20px 20px 0px rgb(233, 243, 252));
+}
+
+#update {
+  position: fixed;
+  top: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto", serif;
 }
