@@ -51,7 +51,7 @@ html {
 
 #update {
   position: fixed;
-  top: 10px;
+  bottom: 10px;
   text-align: center;
   font-size: 15px;
   font-family: "Roboto", serif;
