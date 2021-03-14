@@ -35,3 +35,14 @@ html {
 .social-icon {
   width: 50px;
 }
+
+.right {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  width: 450px;
+}
+
+.blob {
+  filter: drop-shadow(20px 20px 0px rgb(233, 243, 252));
+}
