@@ -25,3 +25,13 @@ html {
   margin-top: 20px;
   font-size: 60px;
 }
+
+.social-link {
+  text-decoration: none;
+  color: inherit;
+  margin: 0px 40px 0px 0px;
+}
+
+.social-icon {
+  width: 50px;
+}
