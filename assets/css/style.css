@@ -15,14 +15,14 @@ html {
 }
 
 .top-heading {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-size: 70px;
 }
 
 .tagline {
   margin-top: 20px;
   font-size: 55px;
-  font-family: "Roboto", serif;
+  font-family: Roboto, serif;
 }
 
 .social-link {
@@ -55,5 +55,5 @@ html {
   bottom: 10px;
   text-align: center;
   font-size: 15px;
-  font-family: "Roboto", serif;
+  font-family: Roboto, serif;
 }
