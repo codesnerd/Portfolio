@@ -11,7 +11,7 @@ html {
   align-items: center;
   flex-wrap: wrap;
   width: 100vw;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 
 .top-heading {
@@ -40,9 +40,10 @@ html {
 }
 
 .right {
+  margin: 30px 0px 10px 0px;
   display: flex;
   justify-content: center;
-  height: 450px;
+  height: 500px;
   width: 450px;
 }
 
