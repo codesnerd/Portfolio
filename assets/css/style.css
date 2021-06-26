@@ -5,6 +5,7 @@
 
 .parent,
 html {
+  background: #F9FAFC;
   height: 100%;
   display: flex;
   justify-content: center;
