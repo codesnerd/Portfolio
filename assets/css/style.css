@@ -76,9 +76,23 @@ p {
   }
 }
 
+@media only screen and (max-width: 794px) {
+  .wrapper { 
+    margin: 40px;
+    width: 100%;
+  }
+  .top-heading {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+}
+
 @media only screen and (max-width: 412px) {
    .top-heading {
-    font-size: 2em;
+    font-size: 1.7em;
   }
 
   p {
@@ -88,7 +102,7 @@ p {
 
 @media only screen and (max-width: 320px) {
    .top-heading {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   p {
