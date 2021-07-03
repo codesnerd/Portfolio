@@ -10,8 +10,8 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   min-height: 100%;
+  margin: auto;
 }
 
 .wrapper{
@@ -64,10 +64,6 @@ p {
 /* Media Queries: */
 
 @media only screen and (max-width: 794px) {
-  .wrapper { 
-    margin: 40px;
-    width: 100%;
-  }
   .top-heading {
     font-size: 2.5em;
   }
@@ -78,7 +74,7 @@ p {
 }
 
 @media only screen and (max-width: 480px) {
-  .wrapper { 
+  .wrapper {
     margin: 40px;
     width: 100%;
   }
@@ -92,6 +88,10 @@ p {
 }
 
 @media only screen and (max-width: 412px) {
+  .wrapper {
+    margin: 40px;
+    width: 100%;
+  }
    .top-heading {
     font-size: 1.7em;
   }
@@ -102,6 +102,10 @@ p {
 }
 
 @media only screen and (max-width: 320px) {
+  .wrapper {
+    margin: 40px;
+    width: 100%;
+  }
    .top-heading {
     font-size: 1.3em;
   }
